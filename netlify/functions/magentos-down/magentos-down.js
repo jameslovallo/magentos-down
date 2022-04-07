@@ -18,7 +18,7 @@ const handler = async (event) => {
 				sku = sku.split('"')[1]
 				body = productsBySku.hasOwnProperty(sku)
 					? productsBySku[sku]
-					: productsBySku[0]
+					: productsBySku[Object.keys(productsBySku[0])]
 			}
 
 			if (
