@@ -14,6 +14,8 @@ const handler = async (event) => {
 
 		if (params.query) {
 			if (params.query.startsWith('{ products( filter: { sku:')) {
+				const sku = params.query.match(/"sku": ".+"/g)
+				console.log(sku)
 				body = singleProduct
 			}
 
