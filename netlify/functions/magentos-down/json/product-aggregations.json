@@ -1,0 +1,53 @@
+{
+	"data": {
+		"products": {
+			"aggregations": [
+				{
+					"attribute_code": "vype_system_type",
+					"label": "vype_system_type",
+					"count": 1,
+					"options": [
+						{
+							"count": 6,
+							"label": "N/A",
+							"value": "N/A"
+						}
+					]
+				},
+				{
+					"attribute_code": "velo_flavour",
+					"label": "velo_flavour",
+					"count": 5,
+					"options": [
+						{
+							"count": 2,
+							"label": "Berry Frost",
+							"value": "Berry Frost"
+						}
+					]
+				},
+				{
+					"attribute_code": "strength",
+					"label": "strength",
+					"count": 2,
+					"options": [
+						{
+							"count": 6,
+							"label": "Medium - 6mg",
+							"value": "Medium - 6mg"
+						},
+						{
+							"count": 6,
+							"label": "Mild - 4mg",
+							"value": "Mild - 4mg"
+						}
+					]
+				}
+			],
+			"total_count": 6,
+			"page_info": {
+				"total_pages": 6
+			}
+		}
+	}
+}

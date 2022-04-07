@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/graphql/*"
+  to = "/.netlify/functions/magentos-down/:splat"
+  status = 200
+  force = true

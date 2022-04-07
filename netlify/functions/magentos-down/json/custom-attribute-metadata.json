@@ -1,0 +1,26 @@
+{
+	"data": {
+		"customAttributeMetadata": {
+			"items": [
+				{
+					"attribute_code": "strength",
+					"attribute_options": [
+						{ "value": "6781", "label": "Mild - 4mg" },
+						{ "value": "6782", "label": "Medium - 6mg" },
+						{ "value": "6783", "label": "Strong - 10mg" },
+						{ "value": "6784", "label": "X-Strong - 10.9mg" },
+						{ "value": "6785", "label": "0mg" },
+						{ "value": "6786", "label": "3mg" },
+						{ "value": "6787", "label": "4mg" },
+						{ "value": "6788", "label": "6mg" },
+						{ "value": "6789", "label": "10mg" },
+						{ "value": "6790", "label": "10.9mg" },
+						{ "value": "6791", "label": "12mg" },
+						{ "value": "6792", "label": "18mg" }
+					],
+					"entity_type": "catalog_product"
+				}
+			]
+		}
+	}
+}
