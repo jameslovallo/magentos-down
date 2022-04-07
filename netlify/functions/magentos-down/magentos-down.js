@@ -8,32 +8,31 @@ const customAttributeMetadata = require('./json/custom-attribute-metadata.json')
 const handler = async (event) => {
 	try {
 		const params = event.queryStringParameters
-
 		let body
 
-		if (!params.query) body = JSON.stringify(rootRespone)
+		if (!params.query) body = rootRespone
 
 		if (params.query) {
 			if (params.query.startsWith('{ products( filter: { sku:')) {
-				body = JSON.stringify(singleProduct)
+				body = singleProduct
 			}
 
 			if (
 				params.query.startsWith('{ products(filter: { category_id:') &&
 				params.query.includes('aggregations')
 			) {
-				body = JSON.stringify(productAggregations)
+				body = productAggregations
 			}
 
 			if (
 				params.query.startsWith('{ products( filter: { category_id:') &&
 				params.query.includes('{ items { uid sku name')
 			) {
-				body = JSON.stringify(productListingItems)
+				body = productListingItems
 			}
 
 			if (params.query.startsWith('{ customAttributeMetadata')) {
-				body = JSON.stringify(customAttributeMetadata)
+				body = customAttributeMetadata
 			}
 		}
 
@@ -45,7 +44,7 @@ const handler = async (event) => {
 				'Access-Control-Allow-Headers':
 					'Content-Type, Authorization, X-Requested-With',
 			},
-			body: body,
+			body: JSON.stringify(body),
 		}
 	} catch (error) {
 		return { statusCode: 500, body: error.toString() }
