@@ -42,8 +42,7 @@ const handler = async (event) => {
 				'Access-Control-Allow-Origin': '*', // Allow from anywhere
 				'Access-Control-Allow-Methods': 'DELETE, POST, GET, OPTIONS',
 				'Access-Control-Allow-Headers':
-					'Content-Type, Authorization, X-Requested-With',
-				store: '*',
+					'Content-Type, Authorization, X-Requested-With, store',
 			},
 			body: JSON.stringify(body),
 		}
