@@ -43,6 +43,7 @@ const handler = async (event) => {
 				'Access-Control-Allow-Methods': 'DELETE, POST, GET, OPTIONS',
 				'Access-Control-Allow-Headers':
 					'Content-Type, Authorization, X-Requested-With',
+				store: '*',
 			},
 			body: JSON.stringify(body),
 		}
