@@ -1,5 +1,4 @@
 const rootRespone = require('./json/root-response.json')
-const singleProduct = require('./json/single-product.json')
 const productsBySku = require('./json/products-by-sku.json')
 const productAggregations = require('./json/product-aggregations.json')
 const productListingItems = require('./json/product-listing-items.json')
@@ -17,8 +16,9 @@ const handler = async (event) => {
 			if (params.query.startsWith('{ products( filter: { sku:')) {
 				let sku = params.query.match(/sku: {eq: ".+"}/g)[0]
 				sku = sku.split('"')[1]
-				const item = productsBySku[sku]
-				body = item ? item : singleProduct
+				body = productsBySku.hasOwnProperty(sku)
+					? productsBySku[sku]
+					: productsBySku[0]
 			}
 
 			if (
