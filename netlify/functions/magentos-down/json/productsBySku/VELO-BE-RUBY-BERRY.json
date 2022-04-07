@@ -1,0 +1,322 @@
+{
+	"data": {
+		"products": {
+			"items": [
+				{
+					"uid": "NTA3NA==",
+					"sku": "VELO-BE-RUBY-BERRY",
+					"name": "VELO Ruby Berry",
+					"__typename": "ConfigurableProduct",
+					"stock_status": "IN_STOCK",
+					"short_description": {
+						"html": "<p>Nicotinegehalte: 6mg en 10 mg per zakje.</p>\r\n<p>Pittige aardbeiensmaak met een zure toets. Geen rook, geen geur, geen tabak.</p>"
+					},
+					"description": {
+						"html": "<p>Nicotinegehalte: 6mg en 10 mg per zakje.</p>\r\n<p>Pittige aardbeiensmaak met een zure toets.</p>\r\n<p>Geen rook, geen geur, geen tabak.</p>"
+					},
+					"image": {
+						"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_400x400_ruby_berry_10mg_1.png",
+						"label": "VELO Ruby Berry"
+					},
+					"small_image": {
+						"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_175x175_ruby_berry_6mg_1.png",
+						"label": "VELO Ruby Berry"
+					},
+					"media_gallery": [
+						{
+							"disabled": false,
+							"label": null,
+							"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_525x525_3d_ruby_berry_10mg_1.png"
+						},
+						{
+							"disabled": false,
+							"label": null,
+							"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_525x525_chevron_ruby_berry_10mg_1.png"
+						},
+						{
+							"disabled": true,
+							"label": null,
+							"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_75x75_ruby_berry_10mg_1.png"
+						},
+						{
+							"disabled": true,
+							"label": null,
+							"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_400x400_ruby_berry_10mg_1.png"
+						},
+						{
+							"disabled": false,
+							"label": null,
+							"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_525x525_chevron_ruby_berry_6mg_1.png"
+						},
+						{
+							"disabled": false,
+							"label": null,
+							"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_525x525_3d_ruby_berry_6mg_1.png"
+						},
+						{
+							"disabled": true,
+							"label": null,
+							"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_175x175_ruby_berry_6mg_1.png"
+						}
+					],
+					"price_range": {
+						"minimum_price": {
+							"regular_price": {
+								"value": 4.5,
+								"currency": "EUR"
+							},
+							"final_price": {
+								"value": 4.5,
+								"currency": "EUR"
+							},
+							"discount": {
+								"amount_off": 0,
+								"percent_off": 0
+							}
+						},
+						"maximum_price": {
+							"regular_price": {
+								"value": 4.5,
+								"currency": "EUR"
+							},
+							"final_price": {
+								"value": 4.5,
+								"currency": "EUR"
+							}
+						}
+					},
+					"background_image": {
+						"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/static/version1649332196/frontend/BAT/cxreboot_velo_eu_be/nl_BE/Magento_Catalog/images/product/placeholder/background_image.jpg",
+						"label": "VELO Ruby Berry"
+					},
+					"categories": [
+						{
+							"name": "VELO Products",
+							"uid": "Mjg1"
+						}
+					],
+					"display_name": "Ruby Berry",
+					"pdp_subheading": "20 Nicotinezakjes",
+					"strength": null,
+					"url_key": "ruby-berry",
+					"velo_flavour": 6582,
+					"configurable_options": [
+						{
+							"uid": "Y29uZmlndXJhYmxlLzUzOTYvNDc5",
+							"attribute_uid": "NDc5",
+							"label": "Nicotinesterkte",
+							"position": 0,
+							"use_default": false,
+							"attribute_code": "strength",
+							"values": [
+								{
+									"value_index": 6587,
+									"label": "Medium - 6mg",
+									"store_label": "Medium - 6mg",
+									"default_label": "Medium - 6mg",
+									"use_default_value": true
+								},
+								{
+									"value_index": 6588,
+									"label": "Strong - 10mg",
+									"store_label": "Strong - 10mg",
+									"default_label": "Strong - 10mg",
+									"use_default_value": true
+								}
+							]
+						}
+					],
+					"variants": [
+						{
+							"product": {
+								"background_image": {
+									"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/static/version1649332196/frontend/BAT/cxreboot_velo_eu_be/nl_BE/Magento_Catalog/images/product/placeholder/background_image.jpg",
+									"label": "VELO Ruby Berry (6mg/pouch) - SLIM"
+								},
+								"categories": [],
+								"display_name": "Ruby Berry",
+								"pdp_subheading": "20 Nicotinezakjes",
+								"strength": 6587,
+								"url_key": "velo-ruby-berry-6mg-pouch-slim",
+								"velo_flavour": 6582,
+								"uid": "NDY0OA==",
+								"sku": "10112645",
+								"name": "VELO Ruby Berry (6mg/pouch) - SLIM",
+								"__typename": "SimpleProduct",
+								"stock_status": "OUT_OF_STOCK",
+								"short_description": {
+									"html": "<p>Een explosie van aardbei met subtiel zure tonen. Geen rook, geen geur, geen tabak. </p>"
+								},
+								"description": {
+									"html": "<p>VELO Ruby Berry Nicotine Pouches Nicotinesterkte: 6 mg per zakje / pouch</p>\r\n<p>Een explosie van aardbei met subtiel zure tonen. Geen rook, geen geur, geen tabak.</p>"
+								},
+								"image": {
+									"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_400x400_ruby_berry_6mg_1.png",
+									"label": "VELO Ruby Berry (6mg/pouch) - SLIM"
+								},
+								"small_image": {
+									"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_175x175_ruby_berry_6mg.png",
+									"label": "VELO Ruby Berry (6mg/pouch) - SLIM"
+								},
+								"media_gallery": [
+									{
+										"disabled": false,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_525x525_3d_ruby_berry_6mg.png"
+									},
+									{
+										"disabled": false,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_525x525_chevron_ruby_berry_6mg.png"
+									},
+									{
+										"disabled": true,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_175x175_ruby_berry_6mg.png"
+									},
+									{
+										"disabled": true,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_75x75_ruby_berry_6mg.png"
+									},
+									{
+										"disabled": true,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_400x400_ruby_berry_6mg_1.png"
+									}
+								],
+								"price_range": {
+									"minimum_price": {
+										"regular_price": {
+											"value": 4.5,
+											"currency": "EUR"
+										},
+										"final_price": {
+											"value": 4.5,
+											"currency": "EUR"
+										},
+										"discount": {
+											"amount_off": 0,
+											"percent_off": 0
+										}
+									},
+									"maximum_price": {
+										"regular_price": {
+											"value": 4.5,
+											"currency": "EUR"
+										},
+										"final_price": {
+											"value": 4.5,
+											"currency": "EUR"
+										}
+									}
+								}
+							},
+							"attributes": [
+								{
+									"label": "Medium - 6mg",
+									"code": "strength",
+									"value_index": 6587
+								}
+							]
+						},
+						{
+							"product": {
+								"background_image": {
+									"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/static/version1649332196/frontend/BAT/cxreboot_velo_eu_be/nl_BE/Magento_Catalog/images/product/placeholder/background_image.jpg",
+									"label": "VELO Ruby Berry (10mg/pouch) - SLIM"
+								},
+								"categories": [],
+								"display_name": "Ruby Berry",
+								"pdp_subheading": "20 Nicotinezakjes",
+								"strength": 6588,
+								"url_key": "velo-ruby-berry-6mg-pouch-slim-2",
+								"velo_flavour": 6582,
+								"uid": "NTA3Mw==",
+								"sku": "10129427",
+								"name": "VELO Ruby Berry (10mg/pouch) - SLIM",
+								"__typename": "SimpleProduct",
+								"stock_status": "IN_STOCK",
+								"short_description": {
+									"html": "<p>A burst of strawberry with tones of acidity.&nbsp;</p>"
+								},
+								"description": {
+									"html": "<p>Nicotine Strength: 10mg per pouch.</p>\r\n<p>A burst of strawberry with tones of acidity.</p>"
+								},
+								"image": {
+									"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_400x400_ruby_berry_10mg_2.png",
+									"label": "VELO Ruby Berry (10mg/pouch) - SLIM"
+								},
+								"small_image": {
+									"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_175x175_ruby_berry_10mg.png",
+									"label": "VELO Ruby Berry (10mg/pouch) - SLIM"
+								},
+								"media_gallery": [
+									{
+										"disabled": false,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_525x525_3d_ruby_berry_10mg.png"
+									},
+									{
+										"disabled": false,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_525x525_chevron_ruby_berry_10mg.png"
+									},
+									{
+										"disabled": true,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_75x75_ruby_berry_10mg.png"
+									},
+									{
+										"disabled": true,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_175x175_ruby_berry_10mg.png"
+									},
+									{
+										"disabled": true,
+										"label": null,
+										"url": "https://content-eu-uat4-global.non-prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo_400x400_ruby_berry_10mg_2.png"
+									}
+								],
+								"price_range": {
+									"minimum_price": {
+										"regular_price": {
+											"value": 4.5,
+											"currency": "EUR"
+										},
+										"final_price": {
+											"value": 4.5,
+											"currency": "EUR"
+										},
+										"discount": {
+											"amount_off": 0,
+											"percent_off": 0
+										}
+									},
+									"maximum_price": {
+										"regular_price": {
+											"value": 4.5,
+											"currency": "EUR"
+										},
+										"final_price": {
+											"value": 4.5,
+											"currency": "EUR"
+										}
+									}
+								}
+							},
+							"attributes": [
+								{
+									"label": "Strong - 10mg",
+									"code": "strength",
+									"value_index": 6588
+								}
+							]
+						}
+					],
+					"related_products": []
+				}
+			]
+		}
+	}
+}
