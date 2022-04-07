@@ -13,26 +13,28 @@ const handler = async (event) => {
 
 		if (!params.query) body = JSON.stringify(rootRespone)
 
-		if (params.query.startsWith('{ products( filter: { sku:')) {
-			body = JSON.stringify(singleProduct)
-		}
+		if (params.query) {
+			if (params.query.startsWith('{ products( filter: { sku:')) {
+				body = JSON.stringify(singleProduct)
+			}
 
-		if (
-			params.query.startsWith('{ products(filter: { category_id:') &&
-			params.query.includes('aggregations')
-		) {
-			body = JSON.stringify(productAggregations)
-		}
+			if (
+				params.query.startsWith('{ products(filter: { category_id:') &&
+				params.query.includes('aggregations')
+			) {
+				body = JSON.stringify(productAggregations)
+			}
 
-		if (
-			params.query.startsWith('{ products( filter: { category_id:') &&
-			params.query.includes('{ items { uid sku name')
-		) {
-			body = JSON.stringify(productListingItems)
-		}
+			if (
+				params.query.startsWith('{ products( filter: { category_id:') &&
+				params.query.includes('{ items { uid sku name')
+			) {
+				body = JSON.stringify(productListingItems)
+			}
 
-		if (params.query.startsWith('{ customAttributeMetadata')) {
-			body = JSON.stringify(customAttributeMetadata)
+			if (params.query.startsWith('{ customAttributeMetadata')) {
+				body = JSON.stringify(customAttributeMetadata)
+			}
 		}
 
 		return {
