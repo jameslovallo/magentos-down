@@ -1,8 +1,8 @@
-# [[redirects]]
-#   from = "/*"
-#   to = "/.netlify/functions/magentos-down/:splat"
-#   status = 200
-#   force = true
+[[redirects]]
+  from = "/static/*"
+  to = "/.netlify/functions/magentos-down/:splat"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/proxy/*"
