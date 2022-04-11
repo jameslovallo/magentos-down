@@ -1,1 +1,449 @@
-{ "data": { "me": { "is_logged_in": false, "active_cart_id": null } } }
+{
+	"data": {
+		"me": { "is_logged_in": false, "active_cart_id": null },
+		"cart": {
+			"email": "battest@mailinator.com",
+			"billing_address": null,
+			"items": [
+				{
+					"id": "14658080",
+					"product": {
+						"background_image": {
+							"url": "https://content-eu-live-global.prod.marketing.bat.net/static/version1648618163/frontend/BAT/cxreboot_velo_za/en_GB/Magento_Catalog/images/product/placeholder/background_image.jpg",
+							"label": "VELO Ruby Berry Can"
+						},
+						"categories": [
+							{
+								"name": "Nicotine Pouches",
+								"uid": "MzIy"
+							}
+						],
+						"display_name": "Ruby Berry Can",
+						"pdp_subheading": null,
+						"strength": null,
+						"url_key": "velo-ruby-berry-can",
+						"velo_flavour": 6798,
+						"uid": "NTI2MA==",
+						"sku": "ruby_berry_can",
+						"name": "VELO Ruby Berry Can",
+						"__typename": "ConfigurableProduct",
+						"stock_status": "IN_STOCK",
+						"short_description": {
+							"html": "<p>Delight in the luscious outdoors. A fresh burst of ripe strawberry with subtle undertones of acidity and green notes, reminiscent of summer moments.</p>"
+						},
+						"description": {
+							"html": "<p>Delight in the luscious outdoors. A fresh burst of ripe strawberry with subtle undertones of acidity and green notes, reminiscent of summer moments. Available in 4mg or 6mg.</p>"
+						},
+						"image": {
+							"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-mild-4mg-400x400_1.png",
+							"label": "VELO Ruby Berry nicotine pouches - 4mg"
+						},
+						"small_image": {
+							"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-mild-4mg-175x175_2.png",
+							"label": "VELO Ruby Berry nicotine pouches - 4mg"
+						},
+						"media_gallery": [
+							{
+								"disabled": true,
+								"label": "VELO Ruby Berry nicotine pouches - 4mg",
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-mild-4mg-75x75_1.png"
+							},
+							{
+								"disabled": true,
+								"label": "VELO Ruby Berry nicotine pouches - 4mg",
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-mild-4mg-175x175_1.png"
+							},
+							{
+								"disabled": true,
+								"label": "VELO Ruby Berry nicotine pouches - 4mg",
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-mild-4mg-400x400_1.png"
+							},
+							{
+								"disabled": false,
+								"label": "VELO Ruby Berry nicotine pouches - 4mg",
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-mild-4mg-525x525_1.png"
+							},
+							{
+								"disabled": true,
+								"label": null,
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-mild-4mg-175x175_2.png"
+							},
+							{
+								"disabled": true,
+								"label": null,
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-mild-4mg-960x930.png"
+							}
+						],
+						"price_range": {
+							"minimum_price": {
+								"regular_price": {
+									"value": 25,
+									"currency": "ZAR"
+								},
+								"final_price": {
+									"value": 25,
+									"currency": "ZAR"
+								},
+								"discount": {
+									"amount_off": 0,
+									"percent_off": 0
+								}
+							},
+							"maximum_price": {
+								"regular_price": {
+									"value": 25,
+									"currency": "ZAR"
+								},
+								"final_price": {
+									"value": 25,
+									"currency": "ZAR"
+								}
+							}
+						},
+						"variants": [
+							{
+								"product": {
+									"id": 5258,
+									"sku": "10125757",
+									"background_image": {
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/static/version1648618163/frontend/BAT/cxreboot_velo_za/en_GB/Magento_Catalog/images/product/placeholder/background_image.jpg",
+										"label": "VELO Ruby Berry Can 4mg"
+									},
+									"categories": [],
+									"display_name": "VELO Ruby Berry Can",
+									"pdp_subheading": null,
+									"strength": 6781,
+									"url_key": "velo-ruby-berry-can-4mg",
+									"velo_flavour": 6798,
+									"small_image": {
+										"label": "VELO Ruby Berry nicotine pouches - 4mg",
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-mild-4mg-175x175.png"
+									}
+								}
+							},
+							{
+								"product": {
+									"id": 5259,
+									"sku": "10125697",
+									"background_image": {
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/static/version1648618163/frontend/BAT/cxreboot_velo_za/en_GB/Magento_Catalog/images/product/placeholder/background_image.jpg",
+										"label": "VELO Ruby Berry Can 6mg"
+									},
+									"categories": [],
+									"display_name": "VELO Ruby Berry Can",
+									"pdp_subheading": null,
+									"strength": 6782,
+									"url_key": "velo-ruby-berry-can-6mg",
+									"velo_flavour": 6798,
+									"small_image": {
+										"label": "VELO Ruby Berry nicotine pouches - 6mg",
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-ruby-berry-medium-6mg-175x175.png"
+									}
+								}
+							}
+						]
+					},
+					"configurable_options": [
+						{
+							"id": 500,
+							"option_label": "Strength",
+							"value_id": 6782,
+							"value_label": "Medium - 6mg"
+						}
+					],
+					"quantity": 1
+				},
+				{
+					"id": "14658082",
+					"product": {
+						"background_image": {
+							"url": "https://content-eu-live-global.prod.marketing.bat.net/static/version1648618163/frontend/BAT/cxreboot_velo_za/en_GB/Magento_Catalog/images/product/placeholder/background_image.jpg",
+							"label": "VELO Polar Mint sachet"
+						},
+						"categories": [
+							{
+								"name": "Nicotine Pouches",
+								"uid": "MzIy"
+							}
+						],
+						"display_name": "Polar Mint sachet",
+						"pdp_subheading": null,
+						"strength": null,
+						"url_key": "velo-polar-mint-sachet",
+						"velo_flavour": 358,
+						"uid": "NTI5NA==",
+						"sku": "polar_mint_sachet",
+						"name": "VELO Polar Mint sachet",
+						"__typename": "ConfigurableProduct",
+						"stock_status": "IN_STOCK",
+						"short_description": {
+							"html": "<p>Treat yourself to ultimate refreshment - the perfect balance of sweet spearmint and cooling menthol to excite your senses.</p>"
+						},
+						"description": {
+							"html": "<p>Treat yourself to ultimate refreshment - the perfect balance of sweet spearmint and cooling menthol to excite your senses. Available in 4mg, 6mg or 10mg.</p>"
+						},
+						"image": {
+							"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-polar-mint-mild-4mg-400x400_1.png",
+							"label": "VELO Polar Mint nicotine pouches - 10mg"
+						},
+						"small_image": {
+							"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-polar-mint-mild-4mg-175x175_1.png",
+							"label": "VELO Polar Mint nicotine pouches - 10mg"
+						},
+						"media_gallery": [
+							{
+								"disabled": false,
+								"label": "VELO Polar Mint nicotine pouches - 10mg",
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-polar-mint-mild-4mg-525x525_1.png"
+							},
+							{
+								"disabled": true,
+								"label": "VELO Polar Mint nicotine pouches - 10mg",
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-polar-mint-mild-4mg-75x75_1.png"
+							},
+							{
+								"disabled": true,
+								"label": "VELO Polar Mint nicotine pouches - 10mg",
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-polar-mint-mild-4mg-175x175_1.png"
+							},
+							{
+								"disabled": true,
+								"label": "VELO Polar Mint nicotine pouches - 10mg",
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-polar-mint-mild-4mg-400x400_1.png"
+							}
+						],
+						"price_range": {
+							"minimum_price": {
+								"regular_price": {
+									"value": 15,
+									"currency": "ZAR"
+								},
+								"final_price": {
+									"value": 15,
+									"currency": "ZAR"
+								},
+								"discount": {
+									"amount_off": 0,
+									"percent_off": 0
+								}
+							},
+							"maximum_price": {
+								"regular_price": {
+									"value": 15,
+									"currency": "ZAR"
+								},
+								"final_price": {
+									"value": 15,
+									"currency": "ZAR"
+								}
+							}
+						},
+						"variants": [
+							{
+								"product": {
+									"id": 5265,
+									"sku": "10125764",
+									"background_image": {
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/static/version1648618163/frontend/BAT/cxreboot_velo_za/en_GB/Magento_Catalog/images/product/placeholder/background_image.jpg",
+										"label": "VELO Polar Mint sachet 4mg"
+									},
+									"categories": [],
+									"display_name": null,
+									"pdp_subheading": null,
+									"strength": 6781,
+									"url_key": "velo-polar-mint-sachet-4mg",
+									"velo_flavour": 358,
+									"small_image": {
+										"label": "VELO Polar Mint nicotine pouches - 4mg",
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-polar-mint-mild-4mg-175x175.png"
+									}
+								}
+							},
+							{
+								"product": {
+									"id": 5266,
+									"sku": "10125801",
+									"background_image": {
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/static/version1648618163/frontend/BAT/cxreboot_velo_za/en_GB/Magento_Catalog/images/product/placeholder/background_image.jpg",
+										"label": "VELO Polar Mint sachet 6mg"
+									},
+									"categories": [],
+									"display_name": null,
+									"pdp_subheading": null,
+									"strength": 6782,
+									"url_key": "velo-polar-mint-sachet-6mg",
+									"velo_flavour": 358,
+									"small_image": {
+										"label": "VELO Polar Mint nicotine pouches - 6mg",
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-polar-mint-medium-6mg-175x175.png"
+									}
+								}
+							}
+						]
+					},
+					"configurable_options": [
+						{
+							"id": 500,
+							"option_label": "Strength",
+							"value_id": 6782,
+							"value_label": "Medium - 6mg"
+						}
+					],
+					"quantity": 1
+				},
+				{
+					"id": "14658084",
+					"product": {
+						"background_image": {
+							"url": "https://content-eu-live-global.prod.marketing.bat.net/static/version1648618163/frontend/BAT/cxreboot_velo_za/en_GB/Magento_Catalog/images/product/placeholder/background_image.jpg",
+							"label": "VELO Ruby Berry sachet"
+						},
+						"categories": [
+							{
+								"name": "Nicotine Pouches",
+								"uid": "MzIy"
+							}
+						],
+						"display_name": "Ruby Berry sachet",
+						"pdp_subheading": null,
+						"strength": null,
+						"url_key": "velo-ruby-berry-sachet",
+						"velo_flavour": 6798,
+						"uid": "NTMwMQ==",
+						"sku": "ruby_berry_sachet",
+						"name": "VELO Ruby Berry sachet",
+						"__typename": "ConfigurableProduct",
+						"stock_status": "IN_STOCK",
+						"short_description": {
+							"html": "<p>Delight in the luscious outdoors. A fresh burst of ripe strawberry with subtle undertones of acidity and green notes, reminiscent of summer moments.</p>"
+						},
+						"description": {
+							"html": "<p>Delight in the luscious outdoors. A fresh burst of ripe strawberry with subtle undertones of acidity and green notes, reminiscent of summer moments. Available in 4mg or 6mg.</p>"
+						},
+						"image": {
+							"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-ruby-berry-mild-4mg-400x400_1.png",
+							"label": "VELO Ruby Berry nicotine pouches - 4mg"
+						},
+						"small_image": {
+							"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-ruby-berry-mild-4mg-400x400_1.png",
+							"label": "VELO Ruby Berry nicotine pouches - 4mg"
+						},
+						"media_gallery": [
+							{
+								"disabled": false,
+								"label": "VELO Ruby Berry nicotine pouches - 4mg",
+								"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-ruby-berry-mild-4mg-400x400_1.png"
+							}
+						],
+						"price_range": {
+							"minimum_price": {
+								"regular_price": {
+									"value": 15,
+									"currency": "ZAR"
+								},
+								"final_price": {
+									"value": 15,
+									"currency": "ZAR"
+								},
+								"discount": {
+									"amount_off": 0,
+									"percent_off": 0
+								}
+							},
+							"maximum_price": {
+								"regular_price": {
+									"value": 15,
+									"currency": "ZAR"
+								},
+								"final_price": {
+									"value": 15,
+									"currency": "ZAR"
+								}
+							}
+						},
+						"variants": [
+							{
+								"product": {
+									"id": 5299,
+									"sku": "10125811",
+									"background_image": {
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/static/version1648618163/frontend/BAT/cxreboot_velo_za/en_GB/Magento_Catalog/images/product/placeholder/background_image.jpg",
+										"label": "VELO Ruby Berry sachet 4mg"
+									},
+									"categories": [],
+									"display_name": null,
+									"pdp_subheading": null,
+									"strength": 6781,
+									"url_key": "velo-ruby-berry-sachet-4mg",
+									"velo_flavour": 6798,
+									"small_image": {
+										"label": "VELO Ruby Berry nicotine pouches - 4mg",
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-ruby-berry-mild-4mg-175x175.png"
+									}
+								}
+							},
+							{
+								"product": {
+									"id": 5300,
+									"sku": "10125765",
+									"background_image": {
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/static/version1648618163/frontend/BAT/cxreboot_velo_za/en_GB/Magento_Catalog/images/product/placeholder/background_image.jpg",
+										"label": "VELO Ruby Berry sachet 6mg"
+									},
+									"categories": [],
+									"display_name": null,
+									"pdp_subheading": null,
+									"strength": 6782,
+									"url_key": "velo-ruby-berry-sachet-6mg",
+									"velo_flavour": 6798,
+									"small_image": {
+										"label": "VELO Ruby Berry nicotine pouches - 6mg",
+										"url": "https://content-eu-live-global.prod.marketing.bat.net/media/catalog/product/cache/c992353e0331719b150f273bef873b00/v/e/velo-sachet-ruby-berry-medium-6mg-175x175.png"
+									}
+								}
+							}
+						]
+					},
+					"configurable_options": [
+						{
+							"id": 500,
+							"option_label": "Strength",
+							"value_id": 6782,
+							"value_label": "Medium - 6mg"
+						}
+					],
+					"quantity": 1
+				}
+			],
+			"available_payment_methods": [
+				{
+					"code": "paygate",
+					"title": "DPO"
+				},
+				{
+					"code": "payu_gateway_card",
+					"title": "PayU"
+				},
+				{
+					"code": "payu_gateway",
+					"title": "PayU"
+				},
+				{
+					"code": "pos_multiple",
+					"title": "POS Multiple Payments"
+				}
+			],
+			"selected_payment_method": {
+				"code": "",
+				"title": ""
+			},
+			"applied_coupons": null,
+			"prices": {
+				"grand_total": {
+					"value": 55,
+					"currency": "ZAR"
+				}
+			}
+		}
+	}
+}
