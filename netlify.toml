@@ -3,3 +3,9 @@
   to = "/.netlify/functions/magentos-down/:splat"
   status = 200
   force = true
+
+[[redirects]]
+  from = "/proxy/*"
+  to = "/.netlify/functions/proxy/:splat"
+  status = 200
+  force = true
