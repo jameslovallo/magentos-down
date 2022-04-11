@@ -3,6 +3,7 @@ const productsBySku = require('./json/products-by-sku.json')
 const productAggregations = require('./json/product-aggregations.json')
 const productListingItems = require('./json/product-listing-items.json')
 const customAttributeMetadata = require('./json/custom-attribute-metadata.json')
+const cart = require('./json/cart.json')
 
 // Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 const handler = async (event) => {
@@ -37,6 +38,10 @@ const handler = async (event) => {
 
 			if (params.query.startsWith('{ customAttributeMetadata')) {
 				body = customAttributeMetadata
+			}
+
+			if (params.query.startsWith('{ getCartDetails')) {
+				body = cart
 			}
 		}
 
