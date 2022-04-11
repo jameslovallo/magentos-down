@@ -4,7 +4,6 @@ const productAggregations = require('./json/product-aggregations.json')
 const productListingItems = require('./json/product-listing-items.json')
 const customAttributeMetadata = require('./json/custom-attribute-metadata.json')
 
-// Docs on event and context https://www.netlify.com/docs/functions/#the-handler-method
 const handler = async (event) => {
 	try {
 		const params = event.queryStringParameters
